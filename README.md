@@ -2,9 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,45:8a2be2,100:ff6b35&height=170&section=header&text=Abhijeet%20Ranjan&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36" alt="Abhijeet Ranjan" width="100%" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=900&color=58A6FF&center=true&vCenter=true&width=820&height=42&lines=Dual+Degree+IT+student+at+IIITM+Gwalior;Full-stack+developer+and+open-source+builder;AI+memory+%7C+DevOps+intelligence+%7C+3D+web;Building+CTX%2C+DeploySense%2C+GhostGate+and+Portfolio" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=900&color=58A6FF&center=true&vCenter=true&width=820&height=42&lines=Dual+Degree+IT+student+at+IIITM+Gwalior;Full-stack+developer+and+open-source+builder;AI+memory+%7C+DevOps+intelligence+%7C+security+labs;Building+CTX%2C+DeploySense+and+GhostGate" alt="Typing SVG" />
 
-<h3>Full-stack engineering, AI-native tools, DevOps systems, and polished 3D product experiences.</h3>
+<h3>Full-stack engineering, AI-native tools, DevOps systems, and polished product experiences.</h3>
 
 <p>
   <a href="https://abhijeeet.netlify.app/">
@@ -40,13 +40,13 @@
 
 ## About Me
 
-I am **Abhijeet Ranjan**, an Integrated **B.Tech + M.Tech Information Technology** student at **ABV-IIITM Gwalior** with a CGPA of **8.78/10**. I build developer-focused products that combine strong engineering with a polished user experience.
+I am **Abhijeet Ranjan**, an Integrated **B.Tech + M.Tech Information Technology** student at **ABV-IIITM Gwalior**. I build developer-focused products that combine strong engineering with a polished user experience.
 
-My work sits at the intersection of **full-stack web**, **AI workflows**, **DevOps automation**, **networking/security labs**, and **3D interfaces**. I like projects where the frontend feels sharp, the backend is dependable, and the tooling is useful enough for real developers to keep around.
+My work sits at the intersection of **full-stack web**, **AI workflows**, **DevOps automation**, **networking/security labs**, and **developer experience**. I like projects where the frontend feels sharp, the backend is dependable, and the tooling is useful enough for real developers to keep around.
 
 ## Personal Note
 
-I do not just want to make projects that look impressive in a screenshot. I want to build tools that feel reliable after the first click: searchable AI memory, deployment scanners that explain risk clearly, automation that makes developer workflows feel alive, and portfolio experiences that carry personality without losing usability.
+I do not just want to make projects that look impressive in a screenshot. I want to build tools that feel reliable after the first click: searchable AI memory, deployment scanners that explain risk clearly, automation that makes developer workflows feel alive, and interfaces that carry personality without losing usability.
 
 ---
 
@@ -55,7 +55,6 @@ I do not just want to make projects that look impressive in a screenshot. I want
 - **CTX** - local-first AI memory capsules for chats, GitHub context, notes, and project decisions.
 - **DeploySense** - DevOps intelligence for Docker, Kubernetes, GitHub Actions, Compose, and deployment logs.
 - **GhostGate** - a virtual privacy router lab with NAT, DNS logging, firewalling, Tor routing, and WireGuard.
-- **3D Portfolio** - an interactive web portfolio built with Next.js, Three.js, GSAP, and Framer Motion.
 
 ---
 
@@ -131,29 +130,6 @@ I do not just want to make projects that look impressive in a screenshot. I want
       </p>
     </td>
     <td width="50%">
-      <a href="https://github.com/Abhi190702/Portfolio">
-        <h3>3D Portfolio</h3>
-      </a>
-      <p>A polished portfolio with an interactive 3D room, project dashboard, responsive sections, motion, contact flow, and optimized media.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" alt="Three.js" />
-        <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=111111" alt="GSAP" />
-        <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
-      </p>
-      <p>
-        <a href="https://github.com/Abhi190702/Portfolio">
-          <img src="https://img.shields.io/badge/Open_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open Portfolio repo" />
-        </a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <a href="https://abhijeeet.netlify.app/">
-        <img src="https://img.shields.io/badge/Live_Portfolio-abhijeeet.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Live portfolio" />
-      </a>
-      <br /><br />
       <strong>Open to collaboration</strong>
       <p>Developer tools, AI assistants, GitHub automation, DevOps dashboards, creative frontend systems, and security/networking labs.</p>
     </td>
@@ -246,8 +222,7 @@ I do not just want to make projects that look impressive in a screenshot. I want
     <td width="50%">
       <strong>ABV-IIITM Gwalior</strong><br />
       Integrated B.Tech + M.Tech in Information Technology<br />
-      June 2025 - June 2030<br />
-      CGPA: 8.78/10
+      June 2025 - June 2030
     </td>
     <td width="50%">
       <strong>Achievements</strong><br />
