@@ -84,37 +84,92 @@ I do not just want to make projects that look impressive in a screenshot. I want
   <tr>
     <td width="50%">
       <a href="https://github.com/Abhi190702/commitpulse">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi190702&repo=commitpulse&theme=tokyonight&hide_border=true" alt="CommitPulse repository card" />
+        <h3>CommitPulse</h3>
       </a>
-      <p><strong>CommitPulse</strong><br />A cinematic SVG contribution monolith powered by GitHub contribution data, themes, animation, caching, and timezone-aware rendering.</p>
+      <p>A cinematic SVG contribution monolith powered by GitHub contribution data, themes, animation, caching, and timezone-aware rendering.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/SVG-FFB13B?style=flat-square&logo=svg&logoColor=111111" alt="SVG" />
+        <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL" />
+      </p>
+      <p>
+        <a href="https://github.com/Abhi190702/commitpulse">
+          <img src="https://img.shields.io/badge/Open_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open CommitPulse repo" />
+        </a>
+      </p>
     </td>
     <td width="50%">
       <a href="https://github.com/Abhi190702/ctx">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi190702&repo=ctx&theme=tokyonight&hide_border=true" alt="CTX repository card" />
+        <h3>CTX</h3>
       </a>
-      <p><strong>CTX</strong><br />A local-first AI memory platform that turns chats, GitHub context, notes, and decisions into reusable searchable capsules.</p>
+      <p>A local-first AI memory platform that turns chats, GitHub context, notes, and decisions into reusable searchable capsules.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+        <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
+        <img src="https://img.shields.io/badge/MCP-ready-8bf5cf?style=flat-square" alt="MCP" />
+      </p>
+      <p>
+        <a href="https://github.com/Abhi190702/ctx">
+          <img src="https://img.shields.io/badge/Open_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open CTX repo" />
+        </a>
+      </p>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <a href="https://github.com/Abhi190702/DeploySense">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi190702&repo=DeploySense&theme=tokyonight&hide_border=true" alt="DeploySense repository card" />
+        <h3>DeploySense</h3>
       </a>
-      <p><strong>DeploySense</strong><br />Open-source DevOps intelligence for Dockerfiles, Kubernetes manifests, CI/CD workflows, Compose files, and deployment logs.</p>
+      <p>Open-source DevOps intelligence for Dockerfiles, Kubernetes manifests, CI/CD workflows, Compose files, and deployment logs.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+      </p>
+      <p>
+        <a href="https://github.com/Abhi190702/DeploySense">
+          <img src="https://img.shields.io/badge/Open_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open DeploySense repo" />
+        </a>
+      </p>
     </td>
     <td width="50%">
       <a href="https://github.com/Abhi190702/GhostGate">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi190702&repo=GhostGate&theme=tokyonight&hide_border=true" alt="GhostGate repository card" />
+        <h3>GhostGate</h3>
       </a>
-      <p><strong>GhostGate</strong><br />A VMware-based Ubuntu router lab for NAT forwarding, DNS resolution/logging, firewalling, Tor routing, and WireGuard privacy experiments.</p>
+      <p>A VMware-based Ubuntu router lab for NAT forwarding, DNS resolution/logging, firewalling, Tor routing, and WireGuard privacy experiments.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111" alt="Linux" />
+        <img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
+        <img src="https://img.shields.io/badge/Tor-7D4698?style=flat-square&logo=torproject&logoColor=white" alt="Tor" />
+        <img src="https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white" alt="WireGuard" />
+      </p>
+      <p>
+        <a href="https://github.com/Abhi190702/GhostGate">
+          <img src="https://img.shields.io/badge/Open_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open GhostGate repo" />
+        </a>
+      </p>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <a href="https://github.com/Abhi190702/Portfolio">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi190702&repo=Portfolio&theme=tokyonight&hide_border=true" alt="Portfolio repository card" />
+        <h3>3D Portfolio</h3>
       </a>
-      <p><strong>3D Portfolio</strong><br />A polished portfolio with an interactive 3D room, project dashboard, responsive sections, motion, contact flow, and optimized media.</p>
+      <p>A polished portfolio with an interactive 3D room, project dashboard, responsive sections, motion, contact flow, and optimized media.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" alt="Three.js" />
+        <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=111111" alt="GSAP" />
+        <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
+      </p>
+      <p>
+        <a href="https://github.com/Abhi190702/Portfolio">
+          <img src="https://img.shields.io/badge/Open_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open Portfolio repo" />
+        </a>
+      </p>
     </td>
     <td width="50%">
       <a href="https://abhijeeet.netlify.app/">

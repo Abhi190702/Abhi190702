@@ -18,12 +18,35 @@ jobs:
 
     steps:
       - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: Abhi190702
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=#8a2be2
+
+      - name: Smooth animation timing
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          for path in Path("dist").glob("*.svg"):
+              text = path.read_text(encoding="utf-8")
+              text = re.sub(
+                  r"animation:none\s+\d+ms\s+linear\s+infinite",
+                  "animation:none 72000ms linear infinite",
+                  text,
+              )
+              text = re.sub(
+                  r"animation:none\s+linear\s+\d+ms\s+infinite",
+                  "animation:none linear 72000ms infinite",
+                  text,
+              )
+              path.write_text(text, encoding="utf-8")
+          PY
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
