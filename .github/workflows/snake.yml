@@ -37,12 +37,12 @@ jobs:
               text = path.read_text(encoding="utf-8")
               text = re.sub(
                   r"animation:none\s+\d+ms\s+linear\s+infinite",
-                  "animation:none 72000ms linear infinite",
+                  "animation:none 24000ms linear infinite",
                   text,
               )
               text = re.sub(
                   r"animation:none\s+linear\s+\d+ms\s+infinite",
-                  "animation:none linear 72000ms infinite",
+                  "animation:none linear 24000ms infinite",
                   text,
               )
               path.write_text(text, encoding="utf-8")

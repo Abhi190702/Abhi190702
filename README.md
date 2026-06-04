@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,45:8a2be2,100:ff6b35&height=170&section=header&text=Abhijeet%20Ranjan&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36" alt="Abhijeet Ranjan" width="100%" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=Dual+Degree+IT+student+at+IIITM+Gwalior;Full-stack+developer+and+open-source+builder;Building+AI+memory%2C+DevOps+intelligence%2C+and+3D+web+experiences;Shipping+CommitPulse%2C+CTX%2C+DeploySense%2C+GhostGate" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=Dual+Degree+IT+student+at+IIITM+Gwalior;Full-stack+developer+and+open-source+builder;Building+AI+memory%2C+DevOps+intelligence%2C+and+3D+web+experiences;Shipping+CTX%2C+DeploySense%2C+GhostGate%2C+and+3D+Portfolio" alt="Typing SVG" />
 
 <h3>Full-stack engineering, AI-native tools, DevOps systems, and polished 3D product experiences.</h3>
 
@@ -46,13 +46,12 @@ My work sits at the intersection of **full-stack web**, **AI workflows**, **DevO
 
 ## Personal Note
 
-I do not just want to make projects that look impressive in a screenshot. I want to build tools that feel reliable after the first click: searchable AI memory, deployment scanners that explain risk clearly, contribution visuals that make GitHub feel alive, and portfolio experiences that carry personality without losing usability.
+I do not just want to make projects that look impressive in a screenshot. I want to build tools that feel reliable after the first click: searchable AI memory, deployment scanners that explain risk clearly, automation that makes developer workflows feel alive, and portfolio experiences that carry personality without losing usability.
 
 ---
 
 ## Current Focus
 
-- **CommitPulse** - live GitHub contribution visualizations as cinematic SVG monoliths.
 - **CTX** - local-first AI memory capsules for chats, GitHub context, notes, and project decisions.
 - **DeploySense** - DevOps intelligence for Docker, Kubernetes, GitHub Actions, Compose, and deployment logs.
 - **GhostGate** - a virtual privacy router lab with NAT, DNS logging, firewalling, Tor routing, and WireGuard.
@@ -60,45 +59,10 @@ I do not just want to make projects that look impressive in a screenshot. I want
 
 ---
 
-## CommitPulse Live
-
-<div align="center">
-
-<a href="https://github.com/Abhi190702/commitpulse">
-  <img src="https://commitpulse.vercel.app/api/streak?user=Abhi190702&theme=auto&tz=Asia%2FKolkata&scale=log&radius=14&font=Orbitron" alt="CommitPulse contribution monolith for Abhi190702" width="780" />
-</a>
-
-<br />
-
-<a href="https://commitpulse.vercel.app/api/streak?user=Abhi190702&view=monthly&theme=auto&tz=Asia%2FKolkata&width=440&height=150">
-  <img src="https://commitpulse.vercel.app/api/streak?user=Abhi190702&view=monthly&theme=auto&tz=Asia%2FKolkata&width=440&height=150" alt="CommitPulse monthly stats for Abhi190702" width="440" />
-</a>
-
-</div>
-
----
-
 ## Featured Work
 
 <table>
   <tr>
-    <td width="50%">
-      <a href="https://github.com/Abhi190702/commitpulse">
-        <h3>CommitPulse</h3>
-      </a>
-      <p>A cinematic SVG contribution monolith powered by GitHub contribution data, themes, animation, caching, and timezone-aware rendering.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/SVG-FFB13B?style=flat-square&logo=svg&logoColor=111111" alt="SVG" />
-        <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL" />
-      </p>
-      <p>
-        <a href="https://github.com/Abhi190702/commitpulse">
-          <img src="https://img.shields.io/badge/Open_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open CommitPulse repo" />
-        </a>
-      </p>
-    </td>
     <td width="50%">
       <a href="https://github.com/Abhi190702/ctx">
         <h3>CTX</h3>
@@ -116,8 +80,6 @@ I do not just want to make projects that look impressive in a screenshot. I want
         </a>
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <a href="https://github.com/Abhi190702/DeploySense">
         <h3>DeploySense</h3>
@@ -135,6 +97,8 @@ I do not just want to make projects that look impressive in a screenshot. I want
         </a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <a href="https://github.com/Abhi190702/GhostGate">
         <h3>GhostGate</h3>
@@ -152,8 +116,6 @@ I do not just want to make projects that look impressive in a screenshot. I want
         </a>
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <a href="https://github.com/Abhi190702/Portfolio">
         <h3>3D Portfolio</h3>
@@ -171,7 +133,9 @@ I do not just want to make projects that look impressive in a screenshot. I want
         </a>
       </p>
     </td>
-    <td width="50%">
+  </tr>
+  <tr>
+    <td colspan="2">
       <a href="https://abhijeeet.netlify.app/">
         <img src="https://img.shields.io/badge/Live_Portfolio-abhijeeet.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Live portfolio" />
       </a>
