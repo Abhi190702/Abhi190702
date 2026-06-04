@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,45:8a2be2,100:ff6b35&height=170&section=header&text=Abhijeet%20Ranjan&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36" alt="Abhijeet Ranjan" width="100%" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=Dual+Degree+IT+student+at+IIITM+Gwalior;Full-stack+developer+and+open-source+builder;Building+AI+memory%2C+DevOps+intelligence%2C+and+3D+web+experiences;Shipping+CTX%2C+DeploySense%2C+GhostGate%2C+and+3D+Portfolio" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=900&color=58A6FF&center=true&vCenter=true&width=820&height=42&lines=Dual+Degree+IT+student+at+IIITM+Gwalior;Full-stack+developer+and+open-source+builder;AI+memory+%7C+DevOps+intelligence+%7C+3D+web;Building+CTX%2C+DeploySense%2C+GhostGate+and+Portfolio" alt="Typing SVG" />
 
 <h3>Full-stack engineering, AI-native tools, DevOps systems, and polished 3D product experiences.</h3>
 
@@ -56,6 +56,20 @@ I do not just want to make projects that look impressive in a screenshot. I want
 - **DeploySense** - DevOps intelligence for Docker, Kubernetes, GitHub Actions, Compose, and deployment logs.
 - **GhostGate** - a virtual privacy router lab with NAT, DNS logging, firewalling, Tor routing, and WireGuard.
 - **3D Portfolio** - an interactive web portfolio built with Next.js, Three.js, GSAP, and Framer Motion.
+
+---
+
+## Holographic Contribution View
+
+<div align="center">
+
+<img src="https://commitpulse.vercel.app/api/streak?user=Abhi190702&theme=auto&tz=Asia%2FKolkata&scale=log&radius=14&font=Orbitron" alt="Holographic GitHub contribution view for Abhijeet Ranjan" width="780" />
+
+<br />
+
+<img src="https://commitpulse.vercel.app/api/streak?user=Abhi190702&view=monthly&theme=auto&tz=Asia%2FKolkata&width=440&height=150" alt="Monthly GitHub contribution view for Abhijeet Ranjan" width="440" />
+
+</div>
 
 ---
 
