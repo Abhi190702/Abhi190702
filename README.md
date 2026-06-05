@@ -26,10 +26,10 @@
 
 <p>
   <a href="https://github.com/Abhi190702?tab=followers">
-    <img src="https://custom-icon-badges.demolab.com/github/followers/Abhi190702?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white" alt="Followers" />
+    <img src="https://custom-icon-badges.demolab.com/badge/Follow-1-236ad3?style=for-the-badge&logo=person-add&logoColor=white&labelColor=1155ba" alt="Followers" />
   </a>
   <a href="https://github.com/Abhi190702?tab=repositories&sort=stargazers">
-    <img src="https://custom-icon-badges.demolab.com/github/stars/Abhi190702?color=55960c&labelColor=488207&style=for-the-badge&logo=star&label=Stars" alt="GitHub stars" />
+    <img src="https://custom-icon-badges.demolab.com/badge/Stars-6-55960c?style=for-the-badge&logo=star&logoColor=white&labelColor=488207" alt="GitHub stars" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=Abhi190702&style=for-the-badge&color=58a6ff" alt="Profile views" />
 </p>
