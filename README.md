@@ -52,6 +52,7 @@ I do not just want to make projects that look impressive in a screenshot. I want
 
 ## Current Focus
 
+- **Code Streak Lab** - CP and DSA consistency tracking across Codeforces practice, streaks, ratings, and topic coverage.
 - **CTX** - local-first AI memory capsules for chats, GitHub context, notes, and project decisions.
 - **DeploySense** - DevOps intelligence for Docker, Kubernetes, GitHub Actions, Compose, and deployment logs.
 - **GhostGate** - a virtual privacy router lab with NAT, DNS logging, firewalling, Tor routing, and WireGuard.
@@ -60,6 +61,23 @@ I do not just want to make projects that look impressive in a screenshot. I want
 
 <table>
   <tr>
+    <td width="50%">
+      <a href="https://github.com/Abhi190702/code-streak-lab">
+        <h3>Code Streak Lab</h3>
+      </a>
+      <p>A Codeforces-first CP and DSA progress dashboard for tracking solved problems, practice streaks, rating growth, topic coverage, and daily consistency.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Codeforces-734-1f8acb?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces rating" />
+        <img src="https://img.shields.io/badge/Problems-34_solved-2563eb?style=flat-square" alt="34 solved problems" />
+        <img src="https://img.shields.io/badge/Streak-5_days-16a34a?style=flat-square" alt="5 day current streak" />
+        <img src="https://img.shields.io/badge/CP_%2B_DSA-active-f59e0b?style=flat-square" alt="CP and DSA active" />
+      </p>
+      <p>
+        <a href="https://github.com/Abhi190702/code-streak-lab">
+          <img src="https://img.shields.io/badge/Open_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open Code Streak Lab repo" />
+        </a>
+      </p>
+    </td>
     <td width="50%">
       <a href="https://github.com/Abhi190702/ctx">
         <h3>CTX</h3>
@@ -77,6 +95,8 @@ I do not just want to make projects that look impressive in a screenshot. I want
         </a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <a href="https://github.com/Abhi190702/DeploySense">
         <h3>DeploySense</h3>
@@ -94,8 +114,6 @@ I do not just want to make projects that look impressive in a screenshot. I want
         </a>
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <a href="https://github.com/Abhi190702/GhostGate">
         <h3>GhostGate</h3>
@@ -113,7 +131,9 @@ I do not just want to make projects that look impressive in a screenshot. I want
         </a>
       </p>
     </td>
-    <td width="50%">
+  </tr>
+  <tr>
+    <td colspan="2">
       <strong>Open to collaboration</strong>
       <p>Developer tools, AI assistants, GitHub automation, DevOps dashboards, creative frontend systems, and security/networking labs.</p>
     </td>
