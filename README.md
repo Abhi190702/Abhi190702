@@ -56,22 +56,6 @@ I do not just want to make projects that look impressive in a screenshot. I want
 - **DeploySense** - DevOps intelligence for Docker, Kubernetes, GitHub Actions, Compose, and deployment logs.
 - **GhostGate** - a virtual privacy router lab with NAT, DNS logging, firewalling, Tor routing, and WireGuard.
 
----
-
-## Holographic Contribution View
-
-<div align="center">
-
-<img src="https://commitpulse.vercel.app/api/streak?user=Abhi190702&theme=auto&tz=Asia%2FKolkata&scale=log&radius=14&font=Orbitron" alt="Holographic GitHub contribution view for Abhijeet Ranjan" width="780" />
-
-<br />
-
-<img src="https://commitpulse.vercel.app/api/streak?user=Abhi190702&view=monthly&theme=auto&tz=Asia%2FKolkata&width=440&height=150" alt="Monthly GitHub contribution view for Abhijeet Ranjan" width="440" />
-
-</div>
-
----
-
 ## Featured Work
 
 <table>
@@ -243,10 +227,6 @@ I do not just want to make projects that look impressive in a screenshot. I want
 <br />
 
 <img src="assets/github-summary.svg" alt="GitHub activity summary" height="170" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhi190702&theme=tokyonight&hide_border=true" alt="GitHub streak" height="170" />
-
-<br />
-
 <img src="assets/top-languages.svg" alt="Top languages across own public repositories" height="170" />
 
 </div>
