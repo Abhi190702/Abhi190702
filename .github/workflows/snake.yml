@@ -29,7 +29,8 @@ jobs:
       - name: Smooth animation timing
         shell: bash
         run: |
-          python - <<'PY'
+          sudo chown -R "$(id -u):$(id -g)" dist
+          python3 - <<'PY'
           from pathlib import Path
           import re
 
