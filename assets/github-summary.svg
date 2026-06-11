@@ -1,6 +1,6 @@
 <svg width="495" height="170" viewBox="0 0 495 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">GitHub activity summary for Abhijeet Ranjan</title>
-  <desc id="desc">Local profile summary card showing public repositories, own projects, stars, and followers.</desc>
+  <desc id="desc">Automatically refreshed public profile summary card showing repositories, projects, stars, and followers.</desc>
   <defs>
     <linearGradient id="accent" x1="24" y1="0" x2="471" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#00f5ff"/>
@@ -10,27 +10,27 @@
   </defs>
   <rect x="1" y="1" width="493" height="168" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
   <rect x="24" y="22" width="447" height="4" rx="2" fill="url(#accent)"/>
-  <text x="24" y="49" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">GitHub Activity</text>
-  <text x="24" y="70" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="12">Public profile snapshot</text>
+  <text x="24" y="49" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">GitHub Signal</text>
+  <text x="24" y="70" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="12">Public profile snapshot, refreshed from GitHub</text>
   <g font-family="Segoe UI, Arial, sans-serif">
     <g transform="translate(24 92)">
       <rect width="96" height="54" rx="10" fill="#161b22" stroke="#30363d"/>
-      <text x="14" y="22" fill="#58a6ff" font-size="22" font-weight="800">20</text>
+      <text x="14" y="22" fill="#58a6ff" font-size="22" font-weight="800">23</text>
       <text x="14" y="41" fill="#c9d1d9" font-size="12">Public repos</text>
     </g>
     <g transform="translate(137 92)">
       <rect width="96" height="54" rx="10" fill="#161b22" stroke="#30363d"/>
-      <text x="14" y="22" fill="#8bf5cf" font-size="22" font-weight="800">7</text>
+      <text x="14" y="22" fill="#8bf5cf" font-size="22" font-weight="800">9</text>
       <text x="14" y="41" fill="#c9d1d9" font-size="12">Own projects</text>
     </g>
     <g transform="translate(250 92)">
       <rect width="96" height="54" rx="10" fill="#161b22" stroke="#30363d"/>
-      <text x="14" y="22" fill="#ffcc66" font-size="22" font-weight="800">6</text>
+      <text x="14" y="22" fill="#ffcc66" font-size="22" font-weight="800">9</text>
       <text x="14" y="41" fill="#c9d1d9" font-size="12">Stars</text>
     </g>
     <g transform="translate(363 92)">
       <rect width="108" height="54" rx="10" fill="#161b22" stroke="#30363d"/>
-      <text x="14" y="22" fill="#d2a8ff" font-size="22" font-weight="800">1</text>
+      <text x="14" y="22" fill="#d2a8ff" font-size="22" font-weight="800">12</text>
       <text x="14" y="41" fill="#c9d1d9" font-size="12">Followers</text>
     </g>
   </g>

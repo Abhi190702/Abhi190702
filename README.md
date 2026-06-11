@@ -2,9 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,45:8a2be2,100:ff6b35&height=170&section=header&text=Abhijeet%20Ranjan&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36" alt="Abhijeet Ranjan" width="100%" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=900&color=58A6FF&center=true&vCenter=true&width=820&height=42&lines=Dual+Degree+IT+student+at+IIITM+Gwalior;Full-stack+developer+and+open-source+builder;AI+memory+%7C+DevOps+intelligence+%7C+security+labs;Building+CTX%2C+DeploySense+and+GhostGate" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=900&color=58A6FF&center=true&vCenter=true&width=900&height=42&lines=Systems-minded+full-stack+developer;AI-native+tools+%7C+DevOps+automation+%7C+security+labs;Building+CTX%2C+DeploySense%2C+GhostGate+and+Code+Streak+Lab;Clean+interfaces+backed+by+dependable+engineering" alt="Typing SVG" />
 
-<h3>Full-stack engineering, AI-native tools, DevOps systems, and polished product experiences.</h3>
+<h3>Full-stack developer focused on AI-native tools, DevOps automation, security labs, and developer experience.</h3>
 
 <p>
   <a href="https://abhijeeet.netlify.app/">
@@ -26,10 +26,10 @@
 
 <p>
   <a href="https://github.com/Abhi190702?tab=followers">
-    <img src="https://custom-icon-badges.demolab.com/badge/Follow-1-236ad3?style=for-the-badge&logo=person-add&logoColor=white&labelColor=1155ba" alt="Followers" />
+    <img src="https://img.shields.io/github/followers/Abhi190702?style=for-the-badge&label=Followers&logo=github&color=236ad3&labelColor=1155ba" alt="GitHub followers" />
   </a>
   <a href="https://github.com/Abhi190702?tab=repositories&sort=stargazers">
-    <img src="https://custom-icon-badges.demolab.com/badge/Stars-6-55960c?style=for-the-badge&logo=star&logoColor=white&labelColor=488207" alt="GitHub stars" />
+    <img src="https://img.shields.io/github/stars/Abhi190702?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&label=Stars&logo=github&color=55960c&labelColor=488207" alt="GitHub stars" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=Abhi190702&style=for-the-badge&color=58a6ff" alt="Profile views" />
 </p>
@@ -40,13 +40,13 @@
 
 ## About Me
 
-I am **Abhijeet Ranjan**, an Integrated **B.Tech + M.Tech Information Technology** student at **ABV-IIITM Gwalior**. I build developer-focused products that combine strong engineering with a polished user experience.
+I am **Abhijeet Ranjan**, a full-stack developer building AI-native tools, DevOps automation, security labs, and developer-focused products. I care about projects with a real technical spine: clean data models, dependable APIs, readable automation, and interfaces that feel sharp without becoming noisy.
 
-My work sits at the intersection of **full-stack web**, **AI workflows**, **DevOps automation**, **networking/security labs**, and **developer experience**. I like projects where the frontend feels sharp, the backend is dependable, and the tooling is useful enough for real developers to keep around.
+My work sits at the intersection of **full-stack web**, **AI workflows**, **cloud/devops systems**, **networking/security**, **competitive programming**, and **developer experience**. I like building tools that explain, automate, and stay useful after the first demo.
 
 ## Personal Note
 
-I do not just want to make projects that look impressive in a screenshot. I want to build tools that feel reliable after the first click: searchable AI memory, deployment scanners that explain risk clearly, automation that makes developer workflows feel alive, and interfaces that carry personality without losing usability.
+I am building a body of work that reads like proof, not decoration: searchable AI memory, deployment scanners that explain risk clearly, automation that improves developer workflows, security labs that show systems thinking, and interfaces that carry personality without losing usability.
 
 ---
 
@@ -219,19 +219,28 @@ I do not just want to make projects that look impressive in a screenshot. I want
 
 ---
 
-## Education And Highlights
+## Builder Profile
 
 <table>
   <tr>
     <td width="50%">
-      <strong>ABV-IIITM Gwalior</strong><br />
-      Integrated B.Tech + M.Tech in Information Technology<br />
-      June 2025 - June 2030
+      <strong>Engineering Range</strong><br />
+      Full-stack products, AI-native workflows, DevOps automation, GitHub tooling, networking/security labs, and CP/DSA practice systems.
     </td>
     <td width="50%">
-      <strong>Achievements</strong><br />
+      <strong>Public Signals</strong><br />
       Open Source Contributor, GSSoC 2026<br />
       18+ Google Cloud Skill Badges across Generative AI, Cloud Run, Compute, Networking, Spanner, APIs, and Automation
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <strong>Build Style</strong><br />
+      Product-minded interfaces backed by clear APIs, practical data models, useful automation, and readable documentation.
+    </td>
+    <td width="50%">
+      <strong>Current Direction</strong><br />
+      Developer tools that combine AI memory, deployment intelligence, security experimentation, and measurable coding consistency.
     </td>
   </tr>
 </table>

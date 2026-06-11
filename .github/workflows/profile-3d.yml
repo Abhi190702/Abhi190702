@@ -26,8 +26,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: Abhi190702
 
+      - name: Refresh profile cards
+        run: python scripts/update_profile_assets.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit generated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update 3D contribution graph"
-          file_pattern: profile-3d-contrib/*.svg
+          file_pattern: profile-3d-contrib/*.svg assets/github-summary.svg assets/top-languages.svg
