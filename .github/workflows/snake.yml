@@ -38,7 +38,7 @@ jobs:
           from pathlib import Path
           import re
 
-          target_duration_ms = 77700
+          target_duration_ms = 24000
 
           def patch_rule(text, selector, additions):
               pattern = rf"({re.escape(selector)}\{{)([^}}]*)(\}})"
