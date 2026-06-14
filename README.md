@@ -289,11 +289,16 @@ These projects show how I think through real systems: local-first products, AI m
 
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi190702/Abhi190702/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi190702/Abhi190702/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/Abhi190702/Abhi190702/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" width="100%" />
-</picture>
+<br />
+<br />
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Motion divider" width="86%" />
+
+<h3>Code eating my contribution graph</h3>
+
+<img src="https://raw.githubusercontent.com/Abhi190702/Abhi190702/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" width="100%" />
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Motion divider" width="86%" />
 
 </div>
 

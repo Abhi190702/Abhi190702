@@ -17,58 +17,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
-          github_user_name: Abhi190702
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#8a2be2
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#8a2be2
-
-      - name: Polish SVG animation
-        shell: bash
-        run: |
-          sudo chown -R "$(id -u):$(id -g)" dist
-          python3 - <<'PY'
-          from pathlib import Path
-          import re
-
-          TARGET_DURATION_MS = 48000
-
-          def patch_rule(text, selector, additions):
-              pattern = rf"({re.escape(selector)}\{{)([^}}]*)(\}})"
-
-              def repl(match):
-                  body = match.group(2)
-                  for prop, value in additions.items():
-                      if prop not in body:
-                          body += f";{prop}:{value}"
-                  return f"{match.group(1)}{body}{match.group(3)}"
-
-              return re.sub(pattern, repl, text)
-
-          for path in Path("dist").glob("*.svg"):
-              text = path.read_text(encoding="utf-8")
-              text = re.sub(
-                  r"animation:none\s+\d+ms\s+linear\s+infinite",
-                  f"animation:none {TARGET_DURATION_MS}ms linear infinite",
-                  text,
-              )
-              text = re.sub(
-                  r"animation:none\s+linear\s+\d+ms\s+infinite",
-                  f"animation:none linear {TARGET_DURATION_MS}ms infinite",
-                  text,
-              )
-              text = text.replace(
-                  "<svg ",
-                  '<svg style="max-width:100%;height:auto" ',
-                  1,
-              )
-              text = patch_rule(text, ".s", {"will-change": "transform", "transform-box": "fill-box"})
-              text = patch_rule(text, ".u", {"will-change": "transform", "transform-box": "fill-box"})
-              text = patch_rule(text, ".c", {"will-change": "fill"})
-              path.write_text(text, encoding="utf-8")
-          PY
+            dist/github-contribution-grid-snake.gif
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
