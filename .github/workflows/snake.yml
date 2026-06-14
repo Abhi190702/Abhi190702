@@ -29,6 +29,59 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Smooth SVG animation timing
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          target_duration_ms = 77700
+
+          def patch_rule(text, selector, additions):
+              pattern = rf"({re.escape(selector)}\{{)([^}}]*)(\}})"
+
+              def repl(match):
+                  body = match.group(2)
+                  for prop, value in additions.items():
+                      if f"{prop}:" not in body:
+                          body += f";{prop}:{value}"
+                  return f"{match.group(1)}{body}{match.group(3)}"
+
+              return re.sub(pattern, repl, text, count=1)
+
+          for path in Path("dist").glob("*.svg"):
+              text = path.read_text(encoding="utf-8")
+              text = re.sub(
+                  r"animation:none\s+\d+ms\s+linear\s+infinite",
+                  f"animation:none {target_duration_ms}ms linear infinite",
+                  text,
+              )
+              text = re.sub(
+                  r"animation:none\s+linear\s+\d+ms\s+infinite",
+                  f"animation:none linear {target_duration_ms}ms infinite",
+                  text,
+              )
+              if text.startswith("<svg "):
+                  text = text.replace(
+                      "<svg ",
+                      '<svg style="max-width:100%;height:auto" ',
+                      1,
+                  )
+              text = patch_rule(text, ".c", {"will-change": "fill"})
+              text = patch_rule(
+                  text,
+                  ".u",
+                  {"will-change": "transform", "transform-box": "fill-box"},
+              )
+              text = patch_rule(
+                  text,
+                  ".s",
+                  {"will-change": "transform", "transform-box": "fill-box"},
+              )
+              path.write_text(text, encoding="utf-8")
+          PY
+
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
