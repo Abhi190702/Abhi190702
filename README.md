@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,45:8a2be2,100:ff6b35&height=170&section=header&text=Abhijeet%20Ranjan&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36" alt="Abhijeet Ranjan" width="100%" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=900&color=58A6FF&center=true&vCenter=true&width=900&height=42&lines=Systems-minded+full-stack+developer;AI-native+tools+%7C+DevOps+automation+%7C+security+labs;Building+CTX%2C+DeploySense%2C+GhostGate+and+Code+Streak+Lab;Clean+interfaces+backed+by+dependable+engineering" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=900&color=58A6FF&center=true&vCenter=true&width=900&height=42&lines=Systems-minded+full-stack+developer;AI-native+tools+%7C+DevOps+automation+%7C+security+labs;Building+LensBridge%2C+CTX%2C+DeploySense+and+GhostGate;Clean+interfaces+backed+by+dependable+engineering" alt="Typing SVG" />
 
 <h3>Full-stack developer focused on AI-native tools, DevOps automation, security labs, and developer experience.</h3>
 
@@ -42,39 +42,42 @@
 
 I am **Abhijeet Ranjan**, a full-stack developer building AI-native tools, DevOps automation, security labs, and developer-focused products. I care about projects with a real technical spine: clean data models, dependable APIs, readable automation, and interfaces that feel sharp without becoming noisy.
 
-My work sits at the intersection of **full-stack web**, **AI workflows**, **cloud/devops systems**, **networking/security**, **competitive programming**, and **developer experience**. I like building tools that explain, automate, and stay useful after the first demo.
+My work sits at the intersection of **full-stack web**, **AI workflows**, **cloud/devops systems**, **real-time media**, **networking/security**, and **developer experience**. I like building tools that explain, automate, and stay useful after the first demo.
 
 ## Personal Note
 
-I am building a body of work that reads like proof, not decoration: searchable AI memory, deployment scanners that explain risk clearly, automation that improves developer workflows, security labs that show systems thinking, and interfaces that carry personality without losing usability.
+I am building a body of work that reads like proof, not decoration: local-first camera bridges, searchable AI memory, deployment scanners that explain risk clearly, automation that improves developer workflows, security labs that show systems thinking, and interfaces that carry personality without losing usability.
 
 ---
 
 ## Current Focus
 
-- **Code Streak Lab** - CP and DSA consistency tracking across Codeforces practice, streaks, ratings, and topic coverage.
+- **LensBridge** - local-first phone-to-Windows webcam bridge with QR pairing, WebRTC streaming, Tauri desktop preview, Rust signaling, and DirectShow camera output.
 - **CTX** - local-first AI memory capsules for chats, GitHub context, notes, and project decisions.
 - **DeploySense** - DevOps intelligence for Docker, Kubernetes, GitHub Actions, Compose, and deployment logs.
-- **GhostGate** - a virtual privacy router lab with NAT, DNS logging, firewalling, Tor routing, and WireGuard.
+- **GhostGate** - virtual privacy router lab for NAT, DNS logging, firewalling, Tor routing, and WireGuard.
 
-## Featured Work
+## Featured Engineering Work
+
+These projects show how I think through real systems: local-first products, AI memory, DevOps analysis, virtual devices, and security/networking labs.
 
 <table>
   <tr>
     <td width="50%">
-      <a href="https://github.com/Abhi190702/code-streak-lab">
-        <h3>Code Streak Lab</h3>
+      <a href="https://github.com/Abhi190702/lensbridge">
+        <h3>LensBridge</h3>
       </a>
-      <p>A Codeforces-first CP and DSA progress dashboard for tracking solved problems, practice streaks, rating growth, topic coverage, and daily consistency.</p>
+      <p>A local-first phone-to-Windows webcam bridge that pairs through a QR code, streams the phone camera over WebRTC, previews it in a Tauri desktop app, and publishes frames as a Windows DirectShow camera.</p>
       <p>
-        <img src="https://img.shields.io/badge/Codeforces-734-1f8acb?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces rating" />
-        <img src="https://img.shields.io/badge/Problems-34_solved-2563eb?style=flat-square" alt="34 solved problems" />
-        <img src="https://img.shields.io/badge/Streak-5_days-16a34a?style=flat-square" alt="5 day current streak" />
-        <img src="https://img.shields.io/badge/CP_%2B_DSA-active-f59e0b?style=flat-square" alt="CP and DSA active" />
+        <img src="https://img.shields.io/badge/Tauri-v2-FFC131?style=flat-square&logo=tauri&logoColor=111111" alt="Tauri v2" />
+        <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=111111" alt="React 19" />
+        <img src="https://img.shields.io/badge/Rust-local_services-b7410e?style=flat-square&logo=rust&logoColor=white" alt="Rust local services" />
+        <img src="https://img.shields.io/badge/WebRTC-LAN_streaming-00c7b7?style=flat-square" alt="WebRTC LAN streaming" />
+        <img src="https://img.shields.io/badge/Windows-DirectShow-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows DirectShow" />
       </p>
       <p>
-        <a href="https://github.com/Abhi190702/code-streak-lab">
-          <img src="https://img.shields.io/badge/Open_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open Code Streak Lab repo" />
+        <a href="https://github.com/Abhi190702/lensbridge">
+          <img src="https://img.shields.io/badge/Open_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open LensBridge repo" />
         </a>
       </p>
     </td>
@@ -82,7 +85,7 @@ I am building a body of work that reads like proof, not decoration: searchable A
       <a href="https://github.com/Abhi190702/ctx">
         <h3>CTX</h3>
       </a>
-      <p>A local-first AI memory platform that turns chats, GitHub context, notes, and decisions into reusable searchable capsules.</p>
+      <p>A local-first AI memory layer for turning chats, GitHub context, notes, and project decisions into searchable capsules that can be reused across developer workflows.</p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
         <img src="https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
@@ -101,7 +104,7 @@ I am building a body of work that reads like proof, not decoration: searchable A
       <a href="https://github.com/Abhi190702/DeploySense">
         <h3>DeploySense</h3>
       </a>
-      <p>Open-source DevOps intelligence for Dockerfiles, Kubernetes manifests, CI/CD workflows, Compose files, and deployment logs.</p>
+      <p>DevOps intelligence for scanning Dockerfiles, Kubernetes manifests, CI/CD workflows, Compose files, and deployment logs, then explaining risk in engineer-readable language.</p>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
@@ -118,7 +121,7 @@ I am building a body of work that reads like proof, not decoration: searchable A
       <a href="https://github.com/Abhi190702/GhostGate">
         <h3>GhostGate</h3>
       </a>
-      <p>A VMware-based Ubuntu router lab for NAT forwarding, DNS resolution/logging, firewalling, Tor routing, and WireGuard privacy experiments.</p>
+      <p>A hands-on Ubuntu router lab for learning NAT forwarding, DNS logging, firewall rules, Tor routing, and WireGuard privacy through a real VM network setup.</p>
       <p>
         <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111" alt="Linux" />
         <img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
@@ -135,7 +138,7 @@ I am building a body of work that reads like proof, not decoration: searchable A
   <tr>
     <td colspan="2">
       <strong>Open to collaboration</strong>
-      <p>Developer tools, AI assistants, GitHub automation, DevOps dashboards, creative frontend systems, and security/networking labs.</p>
+      <p>Local-first software, AI developer tools, CI/CD analysis, virtual devices, automation systems, and security/networking labs.</p>
     </td>
   </tr>
 </table>
@@ -150,6 +153,7 @@ I am building a body of work that reads like proof, not decoration: searchable A
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Rust-B7410E?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
@@ -163,6 +167,8 @@ I am building a body of work that reads like proof, not decoration: searchable A
 <p>
   <img src="https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tauri-v2-FFC131?style=for-the-badge&logo=tauri&logoColor=111111" alt="Tauri" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" />
   <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=111111" alt="GSAP" />
@@ -178,6 +184,8 @@ I am building a body of work that reads like proof, not decoration: searchable A
   <img src="https://img.shields.io/badge/Express-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
   <img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logo=openapiinitiative&logoColor=white" alt="REST APIs" />
+  <img src="https://img.shields.io/badge/WebRTC-00C7B7?style=for-the-badge" alt="WebRTC" />
+  <img src="https://img.shields.io/badge/WebSockets-111827?style=for-the-badge" alt="WebSockets" />
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
   <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
@@ -199,6 +207,7 @@ I am building a body of work that reads like proof, not decoration: searchable A
   <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />
   <img src="https://img.shields.io/badge/Linux_CLI-FCC624?style=for-the-badge&logo=linux&logoColor=111111" alt="Linux CLI" />
   <img src="https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white" alt="WireGuard" />
+  <img src="https://img.shields.io/badge/Windows_DirectShow-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows DirectShow" />
   <img src="https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=torproject&logoColor=white" alt="Tor" />
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
   <img src="https://img.shields.io/badge/Nmap-004170?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="Nmap" />
@@ -225,7 +234,7 @@ I am building a body of work that reads like proof, not decoration: searchable A
   <tr>
     <td width="50%">
       <strong>Engineering Range</strong><br />
-      Full-stack products, AI-native workflows, DevOps automation, GitHub tooling, networking/security labs, and CP/DSA practice systems.
+      Full-stack products, AI-native workflows, DevOps automation, GitHub tooling, real-time media bridges, and networking/security labs.
     </td>
     <td width="50%">
       <strong>Public Signals</strong><br />
@@ -240,7 +249,7 @@ I am building a body of work that reads like proof, not decoration: searchable A
     </td>
     <td width="50%">
       <strong>Current Direction</strong><br />
-      Developer tools that combine AI memory, deployment intelligence, security experimentation, and measurable coding consistency.
+      Developer tools that combine local-first media, AI memory, deployment intelligence, security experimentation, and polished product interfaces.
     </td>
   </tr>
 </table>

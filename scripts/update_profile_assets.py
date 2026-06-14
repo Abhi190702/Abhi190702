@@ -15,6 +15,7 @@ API_ROOT = "https://api.github.com"
 
 LANGUAGE_COLORS = {
     "TypeScript": "#3178c6",
+    "Rust": "#dea584",
     "JavaScript": "#f1e05a",
     "Python": "#3572A5",
     "CSS": "#563d7c",
