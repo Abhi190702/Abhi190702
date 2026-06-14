@@ -32,6 +32,8 @@ jobs:
       - name: Smooth SVG animation timing
         shell: bash
         run: |
+          sudo chown -R "$(id -u):$(id -g)" dist
+
           python3 - <<'PY'
           from pathlib import Path
           import re
