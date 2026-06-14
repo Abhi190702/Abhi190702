@@ -265,7 +265,11 @@ These projects show how I think through real systems: local-first products, AI m
 <br />
 
 <img src="assets/github-summary.svg" alt="GitHub activity summary" height="170" />
-<img src="https://streak-stats.demolab.com?user=Abhi190702&theme=tokyonight&hide_border=true" alt="GitHub streak" height="170" />
+<img src="https://streak-stats.demolab.com?user=Abhi190702&theme=tokyonight&hide_border=true&hide_total_contributions=true&card_height=170&disable_animations=true" alt="GitHub streak" height="170" />
+
+<br />
+
+<sub>Contribution total is shown only on the rolling-year map below; the streak card shows streaks only.</sub>
 
 <br />
 
@@ -278,6 +282,10 @@ These projects show how I think through real systems: local-first products, AI m
 ## Contribution Map
 
 <div align="center">
+
+<sub>Rolling-year contribution view generated from GitHub activity.</sub>
+
+<br />
 
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%" />
 

@@ -18,15 +18,14 @@ jobs:
 
     steps:
       - name: Generate snake SVGs
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Abhi190702
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=#8a2be2
+            dist/github-contribution-grid-snake.svg?color_snake=#8a2be2
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#8a2be2
 
-      - name: Smooth animation timing
+      - name: Polish SVG animation
         shell: bash
         run: |
           sudo chown -R "$(id -u):$(id -g)" dist
@@ -34,18 +33,28 @@ jobs:
           from pathlib import Path
           import re
 
+          def patch_rule(text, selector, additions):
+              pattern = rf"({re.escape(selector)}\{{)([^}}]*)(\}})"
+
+              def repl(match):
+                  body = match.group(2)
+                  for prop, value in additions.items():
+                      if prop not in body:
+                          body += f";{prop}:{value}"
+                  return f"{match.group(1)}{body}{match.group(3)}"
+
+              return re.sub(pattern, repl, text)
+
           for path in Path("dist").glob("*.svg"):
               text = path.read_text(encoding="utf-8")
-              text = re.sub(
-                  r"animation:none\s+\d+ms\s+linear\s+infinite",
-                  "animation:none 24000ms linear infinite",
-                  text,
+              text = text.replace(
+                  "<svg ",
+                  '<svg style="max-width:100%;height:auto" ',
+                  1,
               )
-              text = re.sub(
-                  r"animation:none\s+linear\s+\d+ms\s+infinite",
-                  "animation:none linear 24000ms infinite",
-                  text,
-              )
+              text = patch_rule(text, ".s", {"will-change": "transform", "transform-box": "fill-box"})
+              text = patch_rule(text, ".u", {"will-change": "transform", "transform-box": "fill-box"})
+              text = patch_rule(text, ".c", {"will-change": "fill"})
               path.write_text(text, encoding="utf-8")
           PY
 
