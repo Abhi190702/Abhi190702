@@ -32,6 +32,6 @@
     <circle cx="256" cy="117" r="5" fill="#dea584"/>
     <text x="268" y="121" fill="#c9d1d9">Rust 3.7%</text>
     <circle cx="256" cy="139" r="5" fill="#8b949e"/>
-    <text x="268" y="143" fill="#c9d1d9">Other 9.2%</text>
+    <text x="268" y="143" fill="#c9d1d9">Other 9.3%</text>
   </g>
 </svg>
