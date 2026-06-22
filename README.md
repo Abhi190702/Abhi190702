@@ -294,9 +294,13 @@ These projects show how I think through real systems: local-first products, AI m
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Motion divider" width="86%" />
 
-<h3>Code eating my contribution graph</h3>
+<h3>Pac-Man eating my contribution graph</h3>
 
-<img src="https://raw.githubusercontent.com/Abhi190702/Abhi190702/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi190702/Abhi190702/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi190702/Abhi190702/output/pacman-contribution-graph.svg">
+  <img src="https://raw.githubusercontent.com/Abhi190702/Abhi190702/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph" width="100%" />
+</picture>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Motion divider" width="86%" />
 
