@@ -4,6 +4,7 @@ import html
 import json
 import os
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
@@ -15,6 +16,7 @@ ASSETS = ROOT / "assets"
 PROFILE_3D = ROOT / "profile-3d-contrib"
 API_ROOT = "https://api.github.com"
 GRAPHQL_ROOT = "https://api.github.com/graphql"
+GITHUB_WEB_ROOT = "https://github.com"
 
 LANGUAGE_COLORS = {
     "TypeScript": "#3178c6",
@@ -50,6 +52,23 @@ def api_get(path_or_url: str) -> object:
     except HTTPError as exc:
         message = exc.read().decode("utf-8", errors="replace")
         raise RuntimeError(f"GitHub API request failed for {url}: {exc.code} {message}") from exc
+
+
+def web_get(path_or_url: str) -> str:
+    url = path_or_url if path_or_url.startswith("https://") else f"{GITHUB_WEB_ROOT}{path_or_url}"
+    request = Request(
+        url,
+        headers={
+            "Accept": "text/html,application/xhtml+xml",
+            "User-Agent": "Abhi190702-profile-assets",
+        },
+    )
+    try:
+        with urlopen(request, timeout=30) as response:
+            return response.read().decode("utf-8", errors="replace")
+    except HTTPError as exc:
+        message = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"GitHub web request failed for {url}: {exc.code} {message}") from exc
 
 
 def graphql_get(query: str, variables: dict[str, object]) -> object | None:
@@ -101,7 +120,25 @@ def github_counts(user: dict, repos: list[dict], own_repos: list[dict]) -> dict[
     }
 
 
-def fetch_contribution_total() -> int | None:
+def fetch_public_contribution_total() -> int | None:
+    html_text = web_get(f"/users/{USERNAME}/contributions")
+    match = re.search(
+        r'<h2[^>]*id="js-contribution-activity-description"[^>]*>(.*?)</h2>',
+        html_text,
+        re.DOTALL,
+    )
+    if not match:
+        return None
+
+    heading = re.sub(r"<[^>]+>", " ", match.group(1))
+    heading = re.sub(r"\s+", " ", heading).strip()
+    total_match = re.search(r"([\d,]+)\s+contributions?\s+in\s+the\s+last\s+year", heading, re.I)
+    if not total_match:
+        return None
+    return int(total_match.group(1).replace(",", ""))
+
+
+def fetch_graphql_contribution_total() -> int | None:
     data = graphql_get(
         """
         query($login: String!) {
@@ -128,19 +165,26 @@ def fetch_contribution_total() -> int | None:
     return int(total) if total is not None else None
 
 
-def profile_metrics_svg(counts: dict[str, int]) -> str:
+def fetch_contribution_total() -> int | None:
+    return fetch_public_contribution_total() or fetch_graphql_contribution_total()
+
+
+def refreshed_at_label() -> str:
+    return datetime.now(timezone.utc).strftime("%H:%M UTC")
+
+
+def profile_metrics_svg(counts: dict[str, int], refreshed_at: str) -> str:
     badges = [
-        ("Followers", counts["followers"], "#236ad3", "#1155ba"),
-        ("Stars", counts["stars"], "#55960c", "#488207"),
-        ("Repos", counts["public_repos"], "#30363d", "#161b22"),
-        ("Projects", counts["own_projects"], "#00c7b7", "#064e4a"),
+        ("Followers", counts["followers"], "#236ad3", "#1155ba", 86, 44),
+        ("Stars", counts["stars"], "#55960c", "#488207", 74, 44),
+        ("Repos", counts["public_repos"], "#30363d", "#161b22", 74, 44),
+        ("Projects", counts["own_projects"], "#00c7b7", "#064e4a", 86, 44),
+        ("Sync", refreshed_at, "#ff6b35", "#7c2d12", 58, 84),
     ]
 
     blocks = []
     x = 0
-    for label, value, color, label_color in badges:
-        label_width = 86 if label in {"Followers", "Projects"} else 74
-        value_width = 44
+    for label, value, color, label_color, label_width, value_width in badges:
         total_width = label_width + value_width
         blocks.append(
             f'''  <g transform="translate({x} 0)">
@@ -310,9 +354,10 @@ def main() -> None:
     own_repos = [repo for repo in repos if not repo.get("fork")]
     counts = github_counts(user, repos, own_repos)
     contribution_total = fetch_contribution_total()
+    refreshed_at = refreshed_at_label()
 
     ASSETS.mkdir(exist_ok=True)
-    (ASSETS / "profile-metrics.svg").write_text(profile_metrics_svg(counts), encoding="utf-8")
+    (ASSETS / "profile-metrics.svg").write_text(profile_metrics_svg(counts, refreshed_at), encoding="utf-8")
     (ASSETS / "github-summary.svg").write_text(summary_svg(user, repos, own_repos), encoding="utf-8")
     (ASSETS / "top-languages.svg").write_text(top_languages_svg(own_repos), encoding="utf-8")
     patch_profile_3d_svgs(contribution_total, counts["stars"])
