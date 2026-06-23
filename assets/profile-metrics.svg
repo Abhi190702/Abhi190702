@@ -1,0 +1,30 @@
+<svg width="514" height="34" viewBox="0 0 514 34" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub profile metrics for Abhijeet Ranjan</title>
+  <desc id="desc">Automatically refreshed GitHub metrics generated from the GitHub API.</desc>
+  <g font-family="Segoe UI, Arial, sans-serif">
+  <g transform="translate(0 0)">
+    <rect width="86" height="34" fill="#1155ba"/>
+    <rect x="86" width="44" height="34" fill="#236ad3"/>
+    <text x="43.0" y="22" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="1.4">FOLLOWERS</text>
+    <text x="108.0" y="22" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800">14</text>
+  </g>
+  <g transform="translate(136 0)">
+    <rect width="74" height="34" fill="#488207"/>
+    <rect x="74" width="44" height="34" fill="#55960c"/>
+    <text x="37.0" y="22" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="1.4">STARS</text>
+    <text x="96.0" y="22" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800">11</text>
+  </g>
+  <g transform="translate(260 0)">
+    <rect width="74" height="34" fill="#161b22"/>
+    <rect x="74" width="44" height="34" fill="#30363d"/>
+    <text x="37.0" y="22" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="1.4">REPOS</text>
+    <text x="96.0" y="22" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800">27</text>
+  </g>
+  <g transform="translate(384 0)">
+    <rect width="86" height="34" fill="#064e4a"/>
+    <rect x="86" width="44" height="34" fill="#00c7b7"/>
+    <text x="43.0" y="22" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="1.4">PROJECTS</text>
+    <text x="108.0" y="22" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800">11</text>
+  </g>
+  </g>
+</svg>

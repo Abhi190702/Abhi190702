@@ -3,6 +3,7 @@ from __future__ import annotations
 import html
 import json
 import os
+import re
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
@@ -11,7 +12,9 @@ from urllib.request import Request, urlopen
 USERNAME = os.environ.get("GITHUB_USERNAME", "Abhi190702")
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
+PROFILE_3D = ROOT / "profile-3d-contrib"
 API_ROOT = "https://api.github.com"
+GRAPHQL_ROOT = "https://api.github.com/graphql"
 
 LANGUAGE_COLORS = {
     "TypeScript": "#3178c6",
@@ -49,6 +52,31 @@ def api_get(path_or_url: str) -> object:
         raise RuntimeError(f"GitHub API request failed for {url}: {exc.code} {message}") from exc
 
 
+def graphql_get(query: str, variables: dict[str, object]) -> object | None:
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        return None
+
+    body = json.dumps({"query": query, "variables": variables}).encode("utf-8")
+    request = Request(
+        GRAPHQL_ROOT,
+        data=body,
+        headers={
+            "Accept": "application/vnd.github+json",
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "User-Agent": "Abhi190702-profile-assets",
+        },
+        method="POST",
+    )
+    try:
+        with urlopen(request, timeout=30) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except HTTPError as exc:
+        message = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"GitHub GraphQL request failed: {exc.code} {message}") from exc
+
+
 def fetch_repos() -> list[dict]:
     repos: list[dict] = []
     page = 1
@@ -64,17 +92,84 @@ def escape(value: object) -> str:
     return html.escape(str(value), quote=True)
 
 
+def github_counts(user: dict, repos: list[dict], own_repos: list[dict]) -> dict[str, int]:
+    return {
+        "followers": int(user.get("followers") or 0),
+        "public_repos": int(user.get("public_repos") or len(repos)),
+        "own_projects": len(own_repos),
+        "stars": sum(int(repo.get("stargazers_count") or 0) for repo in repos),
+    }
+
+
+def fetch_contribution_total() -> int | None:
+    data = graphql_get(
+        """
+        query($login: String!) {
+          user(login: $login) {
+            contributionsCollection {
+              contributionCalendar {
+                totalContributions
+              }
+            }
+          }
+        }
+        """,
+        {"login": USERNAME},
+    )
+    if not isinstance(data, dict):
+        return None
+    total = (
+        data.get("data", {})
+        .get("user", {})
+        .get("contributionsCollection", {})
+        .get("contributionCalendar", {})
+        .get("totalContributions")
+    )
+    return int(total) if total is not None else None
+
+
+def profile_metrics_svg(counts: dict[str, int]) -> str:
+    badges = [
+        ("Followers", counts["followers"], "#236ad3", "#1155ba"),
+        ("Stars", counts["stars"], "#55960c", "#488207"),
+        ("Repos", counts["public_repos"], "#30363d", "#161b22"),
+        ("Projects", counts["own_projects"], "#00c7b7", "#064e4a"),
+    ]
+
+    blocks = []
+    x = 0
+    for label, value, color, label_color in badges:
+        label_width = 86 if label in {"Followers", "Projects"} else 74
+        value_width = 44
+        total_width = label_width + value_width
+        blocks.append(
+            f'''  <g transform="translate({x} 0)">
+    <rect width="{label_width}" height="34" fill="{label_color}"/>
+    <rect x="{label_width}" width="{value_width}" height="34" fill="{color}"/>
+    <text x="{label_width / 2}" y="22" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="1.4">{escape(label.upper())}</text>
+    <text x="{label_width + value_width / 2}" y="22" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800">{escape(value)}</text>
+  </g>'''
+        )
+        x += total_width + 6
+
+    return f'''<svg width="{x - 6}" height="34" viewBox="0 0 {x - 6} 34" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub profile metrics for Abhijeet Ranjan</title>
+  <desc id="desc">Automatically refreshed GitHub metrics generated from the GitHub API.</desc>
+  <g font-family="Segoe UI, Arial, sans-serif">
+{chr(10).join(blocks)}
+  </g>
+</svg>
+'''
+
+
 def summary_svg(user: dict, repos: list[dict], own_repos: list[dict]) -> str:
-    followers = int(user.get("followers") or 0)
-    public_repos = int(user.get("public_repos") or len(own_repos))
-    own_projects = len(own_repos)
-    stars = sum(int(repo.get("stargazers_count") or 0) for repo in repos)
+    counts = github_counts(user, repos, own_repos)
 
     cards = [
-        ("Public repos", public_repos, "#58a6ff"),
-        ("Own projects", own_projects, "#8bf5cf"),
-        ("Stars", stars, "#ffcc66"),
-        ("Followers", followers, "#d2a8ff"),
+        ("Public repos", counts["public_repos"], "#58a6ff"),
+        ("Own projects", counts["own_projects"], "#8bf5cf"),
+        ("Stars", counts["stars"], "#ffcc66"),
+        ("Followers", counts["followers"], "#d2a8ff"),
     ]
 
     blocks = []
@@ -187,14 +282,40 @@ def top_languages_svg(own_repos: list[dict]) -> str:
 '''
 
 
+def patch_profile_3d_svgs(contribution_total: int | None, stars: int) -> None:
+    if not PROFILE_3D.exists():
+        return
+
+    for path in PROFILE_3D.glob("*.svg"):
+        text = path.read_text(encoding="utf-8")
+        if contribution_total is not None:
+            text = re.sub(
+                r'(<text\b[^>]*class="fill-strong"[^>]*>)(\d+)(</text><text\b[^>]*>contributions</text>)',
+                rf"\g<1>{contribution_total}\g<3>",
+                text,
+                count=1,
+            )
+        text = re.sub(
+            r'(<text\b[^>]*x="650"[^>]*y="830"[^>]*class="fill-fg">)(\d+)(<title>)(\d+)(</title></text>)',
+            rf"\g<1>{stars}\g<3>{stars}\g<5>",
+            text,
+            count=1,
+        )
+        path.write_text(text, encoding="utf-8")
+
+
 def main() -> None:
     user = api_get(f"/users/{USERNAME}")
     repos = fetch_repos()
     own_repos = [repo for repo in repos if not repo.get("fork")]
+    counts = github_counts(user, repos, own_repos)
+    contribution_total = fetch_contribution_total()
 
     ASSETS.mkdir(exist_ok=True)
+    (ASSETS / "profile-metrics.svg").write_text(profile_metrics_svg(counts), encoding="utf-8")
     (ASSETS / "github-summary.svg").write_text(summary_svg(user, repos, own_repos), encoding="utf-8")
     (ASSETS / "top-languages.svg").write_text(top_languages_svg(own_repos), encoding="utf-8")
+    patch_profile_3d_svgs(contribution_total, counts["stars"])
 
 
 if __name__ == "__main__":

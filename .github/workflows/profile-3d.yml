@@ -1,8 +1,8 @@
-name: Generate 3D Profile Contributions
+name: Refresh Profile Metrics
 
 on:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
   push:
     branches:
@@ -34,5 +34,5 @@ jobs:
       - name: Commit generated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update 3D contribution graph"
-          file_pattern: profile-3d-contrib/*.svg assets/github-summary.svg assets/top-languages.svg
+          commit_message: "chore: refresh profile metrics"
+          file_pattern: profile-3d-contrib/*.svg assets/*.svg
