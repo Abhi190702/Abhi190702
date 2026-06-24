@@ -6,7 +6,7 @@
     <rect width="86" height="34" fill="#1155ba"/>
     <rect x="86" width="44" height="34" fill="#236ad3"/>
     <text x="43.0" y="22" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="1.4">FOLLOWERS</text>
-    <text x="108.0" y="22" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800">15</text>
+    <text x="108.0" y="22" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800">14</text>
   </g>
   <g transform="translate(136 0)">
     <rect width="74" height="34" fill="#488207"/>
@@ -30,7 +30,7 @@
     <rect width="58" height="34" fill="#7c2d12"/>
     <rect x="58" width="84" height="34" fill="#ff6b35"/>
     <text x="29.0" y="22" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="1.4">SYNC</text>
-    <text x="100.0" y="22" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800">02:31 UTC</text>
+    <text x="100.0" y="22" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800">06:38 UTC</text>
   </g>
   </g>
 </svg>
