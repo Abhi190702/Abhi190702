@@ -32,14 +32,6 @@
 
 ---
 
-## Resume
-
-[![Resume](https://img.shields.io/badge/Resume-View%20PDF-blue?style=for-the-badge&logo=adobeacrobatreader)](assets/Abhijeet_Ranjan_Resume.pdf)
-
-📄 [View my latest resume](assets/Abhijeet_Ranjan_Resume.pdf)
-
----
-
 ## About Me
 
 I am **Abhijeet Ranjan**, a full-stack developer building AI-native tools, DevOps automation, security labs, and developer-focused products. I care about projects with a real technical spine: clean data models, dependable APIs, readable automation, and interfaces that feel sharp without becoming noisy.
