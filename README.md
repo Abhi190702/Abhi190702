@@ -10,7 +10,7 @@
   <a href="https://abhijeeet.netlify.app/">
     <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Portfolio" />
   </a>
-  <a href="assets/Abhijeet-Ranjan-Resume.pdf">
+  <a href="assets/Abhijeet_Ranjan_Resume.pdf">
     <img src="https://img.shields.io/badge/Resume-Download-ff6b35?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" />
   </a>
   <a href="https://www.linkedin.com/in/abhijeet-ranjan-7056ab22a/">
@@ -309,7 +309,7 @@ These projects show how I think through real systems: local-first products, AI m
 <br />
 
 <a href="https://abhijeeet.netlify.app/">Portfolio</a> |
-<a href="assets/Abhijeet-Ranjan-Resume.pdf">Resume</a> |
+<a href="assets/Abhijeet_Ranjan_Resume.pdf">Resume</a> |
 <a href="https://www.linkedin.com/in/abhijeet-ranjan-7056ab22a/">LinkedIn</a> |
 <a href="https://www.instagram.com/abhi.lonelyfans/">Instagram</a>
 
