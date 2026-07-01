@@ -13,20 +13,20 @@
   <text x="24" y="59" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="12">Own non-fork public repositories</text>
   <rect x="24" y="80" width="447" height="14" rx="7" fill="#161b22"/>
   <g clip-path="url(#barClip)">
-    <rect x="24" y="80" width="204" height="14" fill="#3178c6"/>
-<rect x="228" y="80" width="174" height="14" fill="#f1e05a"/>
-<rect x="402" y="80" width="23" height="14" fill="#563d7c"/>
-<rect x="425" y="80" width="15" height="14" fill="#3572A5"/>
-<rect x="440" y="80" width="31" height="14" fill="#8b949e"/>
+    <rect x="24" y="80" width="203" height="14" fill="#3178c6"/>
+<rect x="227" y="80" width="174" height="14" fill="#f1e05a"/>
+<rect x="401" y="80" width="23" height="14" fill="#563d7c"/>
+<rect x="424" y="80" width="15" height="14" fill="#3572A5"/>
+<rect x="439" y="80" width="32" height="14" fill="#8b949e"/>
   </g>
   <defs>
     <clipPath id="barClip"><rect x="24" y="80" width="447" height="14" rx="7"/></clipPath>
   </defs>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="12">
     <circle cx="30" cy="117" r="5" fill="#3178c6"/>
-    <text x="42" y="121" fill="#c9d1d9">TypeScript 45.6%</text>
+    <text x="42" y="121" fill="#c9d1d9">TypeScript 45.5%</text>
     <circle cx="30" cy="139" r="5" fill="#f1e05a"/>
-    <text x="42" y="143" fill="#c9d1d9">JavaScript 38.9%</text>
+    <text x="42" y="143" fill="#c9d1d9">JavaScript 39.0%</text>
     <circle cx="30" cy="161" r="5" fill="#563d7c"/>
     <text x="42" y="165" fill="#c9d1d9">CSS 5.1%</text>
     <circle cx="256" cy="117" r="5" fill="#3572A5"/>
