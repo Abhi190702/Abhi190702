@@ -57,6 +57,19 @@
       <animate attributeName="opacity" values="0.1;0.34;0.16;0.28" dur="2.7s" repeatCount="indefinite"/>
     </g>
 
+    <g font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="3" fill="#7dfff1">
+      <text x="-760" y="75" opacity="0.46">
+        ROOT_ACCESS // SECURITY_LABS // AI_NATIVE_TOOLS // DEVOPS_AUTOMATION // SYSTEMS_ONLINE // ZERO_TRUST // ROOT_ACCESS // SECURITY_LABS // AI_NATIVE_TOOLS // DEVOPS_AUTOMATION
+        <animate attributeName="x" values="-760;44" dur="18s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.18;0.56;0.34;0.48" dur="4.2s" repeatCount="indefinite"/>
+      </text>
+      <text x="1000" y="232" opacity="0.38">
+        BUILD_FAST // SHIP_CLEAN // HARDEN_SYSTEMS // TRACE_SIGNALS // AUTOMATE_WORKFLOWS // BUILD_FAST // SHIP_CLEAN // HARDEN_SYSTEMS
+        <animate attributeName="x" values="1000;96" dur="20s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.12;0.48;0.22;0.42" dur="5.1s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
     <g font-family="Consolas, 'Courier New', monospace" font-weight="700" fill="#00f5ff" text-anchor="middle">
       <g opacity="0.4">
         <text x="88" y="-220" font-size="12">
@@ -124,6 +137,13 @@
         Abhijeet Ranjan
       </text>
       <text x="500" y="166" fill="#eaffff">Abhijeet Ranjan</text>
+    </g>
+
+    <g font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="700" letter-spacing="4" text-anchor="middle" fill="#7dfff1" filter="url(#softGlow)">
+      <text x="500" y="204" opacity="0.68">FULL_STACK // AI_TOOLS // DEVOPS // SECURITY
+        <animate attributeName="opacity" values="0.24;0.78;0.42;0.68" dur="3.1s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="494;506;500;497" dur="4.6s" repeatCount="indefinite"/>
+      </text>
     </g>
 
     <rect x="0" y="-70" width="1000" height="84" fill="url(#scanGlow)" opacity="0.84">
