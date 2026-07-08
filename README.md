@@ -2,8 +2,6 @@
 
 <img src="./assets/hacker-banner.svg" alt="Abhijeet Ranjan Hacker Banner" width="100%" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=900&color=58A6FF&center=true&vCenter=true&width=900&height=42&lines=Systems-minded+full-stack+developer;AI-native+tools+%7C+DevOps+automation+%7C+security+labs;Building+LensBridge%2C+CTX%2C+DeploySense+and+GhostGate;Clean+interfaces+backed+by+dependable+engineering" alt="Typing SVG" />
-
 <h3>Full-stack developer focused on AI-native tools, DevOps automation, security labs, and developer experience.</h3>
 
 <p>
