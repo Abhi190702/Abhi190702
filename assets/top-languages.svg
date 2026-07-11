@@ -24,7 +24,7 @@
   </defs>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="12">
     <circle cx="30" cy="117" r="5" fill="#3178c6"/>
-    <text x="42" y="121" fill="#c9d1d9">TypeScript 44.6%</text>
+    <text x="42" y="121" fill="#c9d1d9">TypeScript 44.5%</text>
     <circle cx="30" cy="139" r="5" fill="#f1e05a"/>
     <text x="42" y="143" fill="#c9d1d9">JavaScript 40.2%</text>
     <circle cx="30" cy="161" r="5" fill="#563d7c"/>
