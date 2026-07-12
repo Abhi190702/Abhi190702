@@ -1,0 +1,27 @@
+<svg width="1000" height="122" viewBox="0 0 1000 122" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Technical toolkit map</title>
+  <desc id="desc">A terminal-style map of five technical toolkit categories.</desc>
+  <defs>
+    <pattern id="scan" width="1000" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0H1000" stroke="#ffffff" stroke-opacity="0.025"/>
+    </pattern>
+    <filter id="dotGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1000" height="122" fill="#07090d"/>
+  <rect width="1000" height="122" fill="url(#scan)"/>
+  <text x="28" y="28" fill="#7d8590" font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="1.5">abhijeet@github:~$ stack --map --depth=5</text>
+  <path d="M88 64H912" stroke="#30363d" stroke-width="2"/>
+  <g font-family="Consolas, 'Courier New', monospace" text-anchor="middle">
+    <g transform="translate(90 0)"><circle cy="64" r="5" fill="#ef3340"/><text y="91" fill="#f0f3f6" font-size="12">LANGUAGES</text><text y="108" fill="#8b949e" font-size="10">10</text></g>
+    <g transform="translate(295 0)"><circle cy="64" r="5" fill="#ef3340"/><text y="91" fill="#f0f3f6" font-size="12">INTERFACES</text><text y="108" fill="#8b949e" font-size="10">10</text></g>
+    <g transform="translate(500 0)"><circle cy="64" r="5" fill="#ef3340"/><text y="91" fill="#f0f3f6" font-size="12">APIs + DATA</text><text y="108" fill="#8b949e" font-size="10">12</text></g>
+    <g transform="translate(705 0)"><circle cy="64" r="5" fill="#ef3340"/><text y="91" fill="#f0f3f6" font-size="12">INFRA + SEC</text><text y="108" fill="#8b949e" font-size="10">14</text></g>
+    <g transform="translate(910 0)"><circle cy="64" r="5" fill="#ef3340"/><text y="91" fill="#f0f3f6" font-size="12">SYSTEMS</text><text y="108" fill="#8b949e" font-size="10">8</text></g>
+  </g>
+  <circle cx="90" cy="64" r="8" stroke="#ef3340" stroke-opacity="0.5" filter="url(#dotGlow)">
+    <animate attributeName="cx" values="90;295;500;705;910;90" dur="8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

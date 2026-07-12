@@ -1,0 +1,48 @@
+<svg width="1000" height="150" viewBox="0 0 1000 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Selected engineering work index</title>
+  <desc id="desc">A red terminal-style index for LensBridge, CTX, DeploySense, and GhostGate.</desc>
+  <defs>
+    <pattern id="scan" width="1000" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0H1000" stroke="#ffffff" stroke-opacity="0.025"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ef3340" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ef3340" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ef3340" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1000" height="150" fill="#07090d"/>
+  <rect width="1000" height="150" fill="url(#scan)"/>
+  <text x="28" y="29" fill="#7d8590" font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="1.5">abhijeet@github:~$ select --work</text>
+  <path d="M28 43H972" stroke="#ef3340" stroke-opacity="0.28"/>
+  <path d="M250 58V128M500 58V128M750 58V128" stroke="#30363d"/>
+  <g font-family="Consolas, 'Courier New', monospace">
+    <g transform="translate(28 0)">
+      <text y="77" fill="#ef3340" font-size="13" font-weight="700">01</text>
+      <text y="102" fill="#f0f3f6" font-size="19" font-weight="700">LensBridge</text>
+      <text y="122" fill="#8b949e" font-size="11" letter-spacing="1.3">REAL-TIME MEDIA</text>
+    </g>
+    <g transform="translate(278 0)">
+      <text y="77" fill="#ef3340" font-size="13" font-weight="700">02</text>
+      <text y="102" fill="#f0f3f6" font-size="19" font-weight="700">CTX</text>
+      <text y="122" fill="#8b949e" font-size="11" letter-spacing="1.3">AI MEMORY</text>
+    </g>
+    <g transform="translate(528 0)">
+      <text y="77" fill="#ef3340" font-size="13" font-weight="700">03</text>
+      <text y="102" fill="#f0f3f6" font-size="19" font-weight="700">DeploySense</text>
+      <text y="122" fill="#8b949e" font-size="11" letter-spacing="1.3">DEVOPS INTELLIGENCE</text>
+    </g>
+    <g transform="translate(778 0)">
+      <text y="77" fill="#ef3340" font-size="13" font-weight="700">04</text>
+      <text y="102" fill="#f0f3f6" font-size="19" font-weight="700">GhostGate</text>
+      <text y="122" fill="#8b949e" font-size="11" letter-spacing="1.3">NETWORK SECURITY</text>
+    </g>
+  </g>
+  <rect x="-240" y="146" width="240" height="2" fill="url(#accent)" filter="url(#glow)">
+    <animate attributeName="x" values="-240;1000" dur="5.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

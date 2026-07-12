@@ -44,49 +44,61 @@ I prefer building complete systems over isolated demos: software with a useful w
 
 Four projects that represent the systems, product, and infrastructure work I enjoy most.
 
+<img src="assets/work-index.svg" alt="Selected engineering work index" width="100%" />
+
+<sub>01 / REAL-TIME MEDIA / LOCAL-FIRST</sub>
+
 ### [LensBridge](https://github.com/Abhi190702/lensbridge)
 
 **Local-first phone-to-Windows webcam bridge.** LensBridge pairs through a QR code, streams a phone camera over WebRTC, previews it in a Tauri desktop application, and publishes frames as a Windows DirectShow camera.
 
-Tauri v2, React 19, Rust local services, WebRTC, LAN streaming, Windows DirectShow
+**Stack:** Tauri v2, React 19, Rust local services, WebRTC, LAN streaming, Windows DirectShow
 
-[View repository](https://github.com/Abhi190702/lensbridge)
+[Repository and source](https://github.com/Abhi190702/lensbridge)
 
 <br />
+
+<sub>02 / AI MEMORY / DEVELOPER CONTEXT</sub>
 
 ### [CTX](https://github.com/Abhi190702/ctx)
 
 **Reusable memory for developer workflows.** CTX turns chats, GitHub context, notes, and project decisions into searchable local-first capsules that can be carried across tools and sessions.
 
-Next.js, SQLite, Prisma, MCP
+**Stack:** Next.js, SQLite, Prisma, MCP
 
-[View repository](https://github.com/Abhi190702/ctx)
+[Repository and source](https://github.com/Abhi190702/ctx)
 
 <br />
+
+<sub>03 / DEVOPS INTELLIGENCE / ANALYSIS</sub>
 
 ### [DeploySense](https://github.com/Abhi190702/DeploySense)
 
 **DevOps analysis in engineer-readable language.** DeploySense scans Dockerfiles, Kubernetes manifests, CI/CD workflows, Compose files, and deployment logs, then explains risk and remediation clearly.
 
-TypeScript, Docker, Kubernetes, GitHub Actions
+**Stack:** TypeScript, Docker, Kubernetes, GitHub Actions
 
-[View repository](https://github.com/Abhi190702/DeploySense)
+[Repository and source](https://github.com/Abhi190702/DeploySense)
 
 <br />
+
+<sub>04 / NETWORK SECURITY / PRIVACY LAB</sub>
 
 ### [GhostGate](https://github.com/Abhi190702/GhostGate)
 
 **Hands-on virtual privacy router lab.** GhostGate explores NAT forwarding, DNS logging, firewall rules, Tor routing, and WireGuard through a real Ubuntu VM network setup.
 
-Linux, Bash, Tor, WireGuard
+**Stack:** Linux, Bash, Tor, WireGuard
 
-[View repository](https://github.com/Abhi190702/GhostGate)
+[Repository and source](https://github.com/Abhi190702/GhostGate)
 
 > **Open to collaboration:** local-first software, AI developer tools, CI/CD analysis, virtual devices, automation systems, and security or networking projects.
 
 ---
 
 ## Technical Toolkit
+
+<img src="assets/toolkit-map.svg" alt="Technical toolkit map" width="100%" />
 
 <strong>Languages</strong><br />
 C, C++, Java, Rust, JavaScript, TypeScript, Python, Bash, SQL, YAML
