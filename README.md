@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hacker-banner.svg" alt="Abhijeet Ranjan Hacker Banner" width="100%" />
+<img src="./assets/ascii-profile.svg" alt="Abhijeet Ranjan ASCII Profile" width="100%" />
 
 <h3>Full-stack developer focused on AI-native tools, DevOps automation, security labs, and developer experience.</h3>
 

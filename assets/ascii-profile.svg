@@ -1,0 +1,115 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Abhijeet Ranjan ASCII profile</title>
+  <desc id="desc">A terminal-style profile panel with an ASCII rendering of Abhijeet Ranjan's red sword A logo.</desc>
+  <defs>
+    <radialGradient id="redAura" cx="22%" cy="48%" r="48%">
+      <stop offset="0" stop-color="#ef1b24" stop-opacity="0.17"/>
+      <stop offset="0.55" stop-color="#7f1118" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="divider" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ef3340" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#ef3340" stop-opacity="0.58"/>
+      <stop offset="0.78" stop-color="#ef3340" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ef3340" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="scanlines" width="1000" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0H1000" stroke="#ffffff" stroke-opacity="0.025"/>
+    </pattern>
+    <filter id="redGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.4  0 0 0 0 0.02  0 0 0 0 0.03  0 0 0 0.68 0" result="glow"/>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textGlow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="17">
+        <animate attributeName="seed" values="17;29;43;17" dur="10s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.035"/></feComponentTransfer>
+    </filter>
+    <clipPath id="canvas"><rect width="1000" height="360"/></clipPath>
+  </defs>
+
+  <rect width="1000" height="360" fill="#05070a"/>
+  <rect width="1000" height="360" fill="url(#redAura)"/>
+  <rect width="1000" height="360" fill="url(#scanlines)"/>
+  <rect width="1000" height="360" filter="url(#noise)" opacity="0.65"/>
+
+  <g clip-path="url(#canvas)">
+    <path d="M438 26V334" stroke="url(#divider)"/>
+    <path d="M0 38H1000M0 322H1000" stroke="#ef3340" stroke-opacity="0.16"/>
+
+    <g font-family="Consolas, 'Courier New', monospace" text-anchor="middle" font-weight="700" filter="url(#redGlow)">
+      <g fill="#8b9098" font-size="15">
+        <text x="220" y="28">/\</text>
+        <text x="220" y="45">|||</text>
+        <text x="220" y="62">===|||===</text>
+        <text x="220" y="79">|||</text>
+        <text x="220" y="96">|||</text>
+        <text x="220" y="113">|||</text>
+        <text x="220" y="130">|||</text>
+        <text x="220" y="147">|||</text>
+        <text x="220" y="164">|||</text>
+        <text x="220" y="181">|||</text>
+        <text x="220" y="198">|||</text>
+        <text x="220" y="215">|||</text>
+        <text x="220" y="232">|||</text>
+        <text x="220" y="249">|||</text>
+        <text x="220" y="266">|||</text>
+        <text x="220" y="283">|||</text>
+        <text x="220" y="300">|||</text>
+      </g>
+      <g fill="#ed1c24" font-size="17">
+        <text x="220" y="96">/##\</text>
+        <text x="220" y="114">/####\</text>
+        <text x="220" y="132">/######\</text>
+        <text x="220" y="150">/###/\###\</text>
+        <text x="220" y="168">/###/  \###\</text>
+        <text x="220" y="186">/###/    \###\</text>
+        <text x="220" y="204">/############\</text>
+        <text x="220" y="222">/######/  \######\</text>
+        <text x="220" y="240">/#######/    \#######\</text>
+        <text x="220" y="258">/########/      \########\</text>
+        <text x="220" y="276">/#########/        \#########\</text>
+        <text x="220" y="294">/##########/          \##########\</text>
+      </g>
+      <animate attributeName="opacity" values="0.78;1;0.9;1" dur="4.5s" repeatCount="indefinite"/>
+    </g>
+
+    <g font-family="Consolas, 'Courier New', monospace">
+      <text x="486" y="61" fill="#8b949e" font-size="14" letter-spacing="1.8">abhijeet@github:~$ whoami</text>
+      <text x="486" y="107" fill="#f4f7fb" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="1" filter="url(#textGlow)">Abhijeet Ranjan</text>
+      <text x="486" y="137" fill="#ef3340" font-size="14" font-weight="700" letter-spacing="2.6">FULL-STACK ENGINEER / SYSTEMS BUILDER</text>
+
+      <text x="486" y="181" fill="#6e7681" font-size="14">01</text>
+      <text x="522" y="181" fill="#b9c0ca" font-size="14">focus</text>
+      <text x="603" y="181" fill="#ef3340" font-size="14">=</text>
+      <text x="629" y="181" fill="#f0f3f6" font-size="14">[ AI-native tools, DevOps, security ]</text>
+
+      <text x="486" y="213" fill="#6e7681" font-size="14">02</text>
+      <text x="522" y="213" fill="#b9c0ca" font-size="14">builds</text>
+      <text x="603" y="213" fill="#ef3340" font-size="14">=</text>
+      <text x="629" y="213" fill="#f0f3f6" font-size="14">[ LensBridge, CTX, DeploySense ]</text>
+
+      <text x="486" y="245" fill="#6e7681" font-size="14">03</text>
+      <text x="522" y="245" fill="#b9c0ca" font-size="14">mode</text>
+      <text x="603" y="245" fill="#ef3340" font-size="14">=</text>
+      <text x="629" y="245" fill="#f0f3f6" font-size="14">open_source + collaboration</text>
+
+      <text x="486" y="292" fill="#8b949e" font-size="13">status:</text>
+      <text x="552" y="292" fill="#58d68d" font-size="13" font-weight="700">ONLINE</text>
+      <rect x="612" y="280" width="9" height="15" fill="#ef3340">
+        <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <rect x="0" y="-55" width="1000" height="62" fill="#ef3340" opacity="0.05">
+      <animate attributeName="y" values="-60;370" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
